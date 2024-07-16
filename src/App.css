@@ -534,10 +534,6 @@ ul{
         text-align: center;
     }
 
-    /* .navs{
-        padding: 8px 8px;
-    } */
-
     .mobileicon{
         position: absolute;
         display: block;
@@ -603,7 +599,7 @@ ul{
 
     .photo img{
         top: 24px;
-        left: 92px;
+        left: 90px;
         width: 250px;
     }
 
