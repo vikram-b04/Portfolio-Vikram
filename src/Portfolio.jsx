@@ -105,8 +105,8 @@ export const Portfolio = () => {
           <div className='row justify-content-between'>
             <div className='col-lg-8' data-aos="zoom-in" data-aos-duration="1000">
             <div className='herosec-content'>
-           <div className='hello'>
-             <h1 className='text-white fw-bold text-lg-start text-center'><span>Hello, I'm</span></h1>
+           <div className='hello text-lg-start text-center'>
+             <h1 className='text-white fw-bold'><span>Hello, I'm</span></h1>
             </div>
             <div className='name text-lg-start text-center'>
             <h1 className='text-white fw-bold'>
@@ -119,11 +119,11 @@ export const Portfolio = () => {
              </h1>
             </div>
 
-              <div className='summary'>
-            <p className='col-lg-11 text-lg-start text-center'>Eager and skilled MERN stack developer with a passion for creating innovative web solutions, Proficient in both front-end and back-end development technologies.</p>
+              <div className='summary text-lg-start text-center'>
+            <p className='col-lg-11'>Eager and skilled MERN stack developer with a passion for creating innovative web solutions, Proficient in both front-end and back-end development technologies.</p>
           </div>
           
-          <div className='herosec-button pt-4'>
+          <div className='herosec-button pt-4 text-lg-start text-center'>
           <div className='hireme'>
             <a href="#contact">Hire Me</a>
           </div>
@@ -168,19 +168,13 @@ export const Portfolio = () => {
                 <p className='text-white'>I'm an Electrical and Electronics Engineering student at Sastra Deemed To Be University. I have a strong foundation in HTML, CSS, JavaScript, Bootstrap, MongoDB, Node.js, Express.js, ReactJS, Figma and Git.  I am very passionate about improving my coding skills & developing applications & websites. I am a team player and I am excited to work with others to create amazing applications. </p>
                </div>
                <div className='aboutme-bottom' data-aos="fade-up" data-aos-duration="1000">
-               <div className='about-name'>
+                <div>
+                <div className='about-name'>
                <h5 className='text-white'>
                 <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg></span>
                 NAME
                </h5>
                <p className='text-white'>Vikram</p>
-               </div>
-               <div className='about-location'>
-                <h5 className='text-white'>
-                 <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="10" r="3"/><path d="M12 21.7C17.3 17 20 13 20 10a8 8 0 1 0-16 0c0 3 2.7 6.9 8 11.7z"/></svg></span>
-                LOCATION
-                </h5>
-                <p className='text-white'>Chennai</p>
                </div>
                <div className='about-email'>
                 <h5 className='text-white'>
@@ -189,6 +183,16 @@ export const Portfolio = () => {
                 </h5>
                 <a href="mailto:vikrambharathy@gmail.com" className='text-white'>vikrambharathy@gmail.com</a>
                </div>
+                </div>
+
+                <div>
+                <div className='about-location'>
+                <h5 className='text-white'>
+                 <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="10" r="3"/><path d="M12 21.7C17.3 17 20 13 20 10a8 8 0 1 0-16 0c0 3 2.7 6.9 8 11.7z"/></svg></span>
+                LOCATION
+                </h5>
+                <p className='text-white'>Chennai</p>
+               </div>
                <div className='about-number'>
                 <h5 className='text-white'>
                   <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg></span>
@@ -196,6 +200,7 @@ export const Portfolio = () => {
                 </h5>
                 <p className='text-white'>+91 9442483443</p>
                </div>
+                </div>
                </div>
              </div>
               </div>
@@ -516,7 +521,7 @@ export const Portfolio = () => {
         <section id='contact'>
           <div className='container-fluid'>
             <div className='contactform'>
-            <div className='connect'>
+            <div className='connect text-start'>
               <h5 className='text-white fw-bold my-2' data-aos="fade-up">Let's Connect</h5>
               <p className='col-lg-8' data-aos="fade-up" data-aos-duration="1000">Excited to connect and discuss how my skills can contribute to your team. Your message is valued and I look forward to the opportunity!</p>
               <div className='social-icon' data-aos="fade-up" data-aos-duration="1000">
@@ -525,9 +530,9 @@ export const Portfolio = () => {
               </div>
             </div>
 
-            <div className='f' data-aos="fade-up" data-aos-duration="1000">
+            <div className='f' data-aos="fade-up" data-aos-duration="1000" >
               <form className='form' ref={formRef} onSubmit={sendEmail}>
-              <div className='name'>
+              <div className='name1'>
                   <label htmlFor="name" className='text-white yourname fw-medium'>Your Name</label>
                   <input type="text" className='nameinputbox text-white' placeholder='Jacob' name="name" value={form?.name}
                 onChange={handleChange}/>

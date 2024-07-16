@@ -63,7 +63,7 @@ ul{
     display: none;
 }
 
-@media(max-width:768px){
+/* @media(max-width:768px){
     .nav-links{
         display: none;
     }
@@ -95,12 +95,15 @@ ul{
         position: absolute;
         display: block;
         right: 20px;
+        border: 1px solid rgb(226, 232, 240);
+        border-radius: 4px;
+        padding: 7px 17px;
     }
 
     ul{
         padding-left: 0rem !important;
     }
-}
+} */
 
 .hello{
     padding-top: 115px;
@@ -119,6 +122,9 @@ ul{
 
 .name h1{
     font-size: 70px;
+}
+
+.name{
     margin-top: 40px;
     padding-left: 38px;
 }
@@ -142,8 +148,12 @@ ul{
 .summary p{
     color: rgb(173, 183, 190);
     --tw-text-opacity: 1;
-    padding-left: 36px;
     font-size: 20px;
+    line-height: 28px;
+}
+
+.summary{
+    padding-left: 36px;
     padding-top: 30px;
 }
 
@@ -159,6 +169,7 @@ ul{
     background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
     margin-left: 35px;
     margin-right: 16px;
+    width: fit-content;
 }
 
 .download a{
@@ -171,6 +182,7 @@ ul{
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
     background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
     display: inline-block;
+    width: fit-content;
 }
 
 .download span{
@@ -217,8 +229,14 @@ ul{
 .aboutme-bottom{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-top: 40px;
-    gap: 25px;
+    margin-top: 32px;
+    gap: 24px;
+}
+
+.aboutme-bottom > div{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
 }
 
 .about-name h5,.about-location h5,.about-email h5,.about-number h5{
@@ -432,7 +450,7 @@ ul{
     margin-bottom: 8px;
 }
 
-.email,.name,.message{
+.email,.name1,.message{
     margin-bottom: 24px;
 }
 
@@ -486,82 +504,169 @@ ul{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media screen and (max-width:500px){
-    .photo img{
-        left: 70px;
-        top: 606px;
-    }
 
-    .photobg{
+    .nav-links{
         display: none;
     }
 
-    .hello h1,.name h1{
-        font-size: 40px;
+    .nav-links-mobile{
+        position: absolute;
+        list-style: none;
+        display: block;
+        left: 0;
+        top: 10%;
+        transition: all 0.5s ease-in-out;
+        width: 100%;
+        border-bottom: 1px solid rgb(51, 53, 63);
+        padding-top: 40px;
     }
-    
-    .hello h1,.name h1,.summary p,.hireme{
+
+    .nav-links-mobile a{
+        text-decoration: none;
+        color: rgb(173, 183, 190);
+    }
+
+    .nav-links-mobile li{
+        padding: 15px;
+        width: 100%;
+        transition: all 0.5s ease-in-out;
+        text-align: center;
+    }
+
+    /* .navs{
+        padding: 8px 8px;
+    } */
+
+    .mobileicon{
+        position: absolute;
+        display: block;
+        right: 20px;
+        border: 1px solid rgb(226, 232, 240);
+        border-radius: 4px;
+        padding: 6px 16px;
+    }
+
+    ul{
+        padding-left: 0rem !important;
+    }
+
+    .hello span{
+        font-size: 36px;
+        line-height: 40px;
+    }
+
+    .hello{
+        padding-top: 66px;
         padding-left: 0px;
     }
 
     .name{
-        height: 140px;
+        height: 144px;
+        margin-top: 12px;
+        padding-left: 0px;
+    }
+
+    .name h1{
+        font-size: 36px;
     }
 
     .summary p{
-        font-size: 18px;
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 0px !important; 
+    }
+    .summary{
+        padding-left: 0px;
+        padding-top: 0px;
+    }
+
+    .hireme a{
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .download a{
+        width: 100%;
+        margin-top: 12px;
     }
 
     .herosec-button{
         display: block;
     }
 
-    .hello h1{
+    .photobg{
+        background-color: rgb(18, 18, 18);
+        margin-top: 0px;
+        height: 240px;
+    }
+
+    .photo img{
+        top: 24px;
+        left: 92px;
+        width: 250px;
+    }
+
+    .aboutme h2{
+        margin-top: 10px;
+    }
+
+    .aboutmeimg img{
+        width: 410px;
+        height: 460px;
+    }
+
+    .aboutme-p p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .aboutme-bottom{
+        grid-template-columns: 1fr;
+    }
+
+    .about-name p , .about-location p , .about-email a , .about-number p{
+        margin-bottom: 0px !important;
+    }
+
+    .herosec , .aboutmesec , .skillssec , .projectsec , .contactform{
         padding-top: 40px;
+        padding-bottom: 40px;
     }
 
-    .hireme button,.download button{
-        width: 100%;
+    .skills-icon{
+        justify-content: space-evenly;
+        gap: 0px;
     }
 
-    .download button{
-        margin-top: 12px;
-    }
+   .contactform{
+    display: block;
+   }
 
-    .hireme{
-        margin-right: 35px;
-        margin-left: 35px;
-    }
+   .connect {
+    padding-left: 0px;
+   }
 
-    .download{
-        margin-left: 35px;
-        margin-right: 35px;
-    }
+   .f {
+    padding-right: 0px;
+   }
 
-    .name h1{
-        margin-top: 12px;
-    }
+   .social-icon{
+        margin-bottom: 16px
+   }
+
+   .skills-icon{
+    margin-top: 48px;
+   }
+
+   .hireme a{
+    margin-right: 0px;
+    width: 90%;
+   }
+
+   .download a{
+    width: 90%;
+   }
+
 }
 
