@@ -128,7 +128,7 @@ export const Portfolio = () => {
             <a href="#contact">Hire Me</a>
           </div>
           <div className='download'>
-            <a href="https://drive.google.com/file/d/1zq6lAZSrpmcJHrzeZy38UjJAXD6ci92P/view?usp=drive_link" target='blank'>
+            <a href="https://drive.google.com/file/d/1-8sEBrOwOP2jm5PIsPTC0xpCxIk114xL/view?usp=drive_link" target='blank'>
               <span>Download CV</span>
             </a>
           </div>
