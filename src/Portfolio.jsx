@@ -128,7 +128,7 @@ export const Portfolio = () => {
             <a href="#contact">Hire Me</a>
           </div>
           <div className='download'>
-            <a href="">
+            <a href="https://drive.google.com/file/d/1zq6lAZSrpmcJHrzeZy38UjJAXD6ci92P/view?usp=drive_link" target='blank'>
               <span>Download CV</span>
             </a>
           </div>
@@ -296,7 +296,7 @@ export const Portfolio = () => {
             <div className='project-1' data-aos="fade-up" data-aos-duration="1000">
               <a href="https://amul-frontend-work.onrender.com" target='blank'><img src={require('./images/project-9 img.png')} alt="" /></a>
               <div className='project-1-details'>
-                <a href="https://amul-frontend-work.onrender.com" target='blank' className='text-white fw-semibold'>Online Icecream store</a>
+                <a href="https://amul-frontend-work.onrender.com" target='blank' className='text-white fw-semibold'>Online Icecream Store</a>
                 <p>Developed an engaging user interface with React, NodeJS and Stripe  leveraging its component-based architecture to create dynamic and responsive UI.</p>
                 <div className='skillsname'>
                   <p className='text-white'>ReactJS</p>
