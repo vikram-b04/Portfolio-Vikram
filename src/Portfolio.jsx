@@ -12,7 +12,7 @@ AOS.init();
 
 export const Portfolio = () => {
   const [text] = useTypewriter({
-    words : ['Vikram', 'Web Developer', 'Full Stack Developer', 'MERN Stack Developer'],
+    words : ['Vikram', 'Web Developer', 'Web Designer', 'Front-End Developer', 'Back-End Developer', 'Full Stack Developer', 'MERN Stack Developer'],
     loop : true,
     typeSpeed : 60,
     deleteSpeed : 60,
@@ -524,10 +524,56 @@ export const Portfolio = () => {
             <div className='connect text-start'>
               <h5 className='text-white fw-bold my-2' data-aos="fade-up">Let's Connect</h5>
               <p className='col-lg-8' data-aos="fade-up" data-aos-duration="1000">Excited to connect and discuss how my skills can contribute to your team. Your message is valued and I look forward to the opportunity!</p>
-              <div className='social-icon' data-aos="fade-up" data-aos-duration="1000">
+               <div className='aboutme-bottom' data-aos="fade-up" data-aos-duration="1000">
+                <div>
+                <div className='about-name'>
+                <h5 className='text-white'>
+                  <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg></span>
+                PHONE
+                </h5>
+                <p className='text-white'>+91 9442483443</p>
+               </div>
+               <div className='about-email'>
+                <h5 className='text-white'>
+                 <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg></span>
+                EMAIL
+                </h5>
+                <a href="mailto:vikrambharathy@gmail.com" className='text-white'>vikrambharathy@gmail.com</a>
+               </div>
+                </div>
+
+                <div>
+                <div className='about-location'>
+                <h5 className='text-white'>
+                 <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="10" r="3"/><path d="M12 21.7C17.3 17 20 13 20 10a8 8 0 1 0-16 0c0 3 2.7 6.9 8 11.7z"/></svg></span>
+                LOCATION
+                </h5>
+                <p className='text-white'>Chennai</p>
+               </div>
+               <div className='about-number'>
+                <h5 className='text-white'>
+                <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg></span>
+                SOCIAL
+                </h5>
+                <div className='social-icon'>
+               <a href="https://github.com/vikram-b04" target='blank'><img width={35} height={35} src={require("./images/github-icon.png")} alt="" /></a>
+               <a href="https://www.linkedin.com/in/vikram-b-b39617287/" target='blank'><img width={35} height={35} src={require("./images/linkedin-icon.png")} alt="" /></a>
+              </div> 
+               </div>
+               {/* <div className='about-name'>
+               <h5 className='text-white'>
+                <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg></span>
+                NAME
+               </h5>
+               <p className='text-white'>Vikram</p>
+               </div> */}
+               
+                </div>
+               </div>
+              {/* <div className='social-icon' data-aos="fade-up" data-aos-duration="1000">
                <a href="https://github.com/vikram-b04" target='blank'><img width={48} height={48} src={require("./images/github-icon.png")} alt="" /></a>
                <a href="https://www.linkedin.com/in/vikram-b-b39617287/" target='blank'><img width={48} height={48} src={require("./images/linkedin-icon.png")} alt="" /></a>
-              </div>
+              </div> */}
             </div>
 
             <div className='f' data-aos="fade-up" data-aos-duration="1000" >
@@ -560,7 +606,7 @@ export const Portfolio = () => {
         <footer>
           <div className='footer'>
             <img src={require("./images/v logo.png")} alt="" />
-            <p className='rights'>All rights reserved.</p>
+            <p className='rights text-white'>All rights reserved.</p>
           </div>
         </footer>
 

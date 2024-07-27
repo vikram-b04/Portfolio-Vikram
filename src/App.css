@@ -31,7 +31,8 @@ html{
     position: fixed;
     background-color: rgb(18, 18, 18);
     z-index: 20;
-    padding: 16px 16px;
+    /* padding: 16px 16px; */
+    padding: 16px 40px;
 }
 
 ul{
@@ -41,6 +42,7 @@ ul{
     display: flex;
     justify-content: flex-end;
     width: 75%;
+    padding-right: 15px;
 }
 
 .nav-links a{
@@ -63,51 +65,10 @@ ul{
     display: none;
 }
 
-/* @media(max-width:768px){
-    .nav-links{
-        display: none;
-    }
-
-    .nav-links-mobile{
-        position: absolute;
-        list-style: none;
-        display: block;
-        left: 0;
-        top: 10%;
-        transition: all 0.5s ease-in-out;
-        width: 100%;
-        border-bottom: 1px solid rgb(51, 53, 63);
-    }
-
-    .nav-links-mobile a{
-        text-decoration: none;
-        color: rgb(173, 183, 190);
-    }
-
-    .nav-links-mobile li{
-        padding: 30px;
-        width: 100%;
-        transition: all 0.5s ease-in-out;
-        text-align: center;
-    }
-
-    .mobileicon{
-        position: absolute;
-        display: block;
-        right: 20px;
-        border: 1px solid rgb(226, 232, 240);
-        border-radius: 4px;
-        padding: 7px 17px;
-    }
-
-    ul{
-        padding-left: 0rem !important;
-    }
-} */
-
 .hello{
     padding-top: 115px;
-    padding-left: 38px;
+    /* padding-left: 38px; */
+    padding-left: 60px;
 }
 
 .hello span{
@@ -126,7 +87,8 @@ ul{
 
 .name{
     margin-top: 40px;
-    padding-left: 38px;
+    /* padding-left: 38px; */
+    padding-left: 60px;
 }
 
 .photobg{
@@ -153,7 +115,8 @@ ul{
 }
 
 .summary{
-    padding-left: 36px;
+    /* padding-left: 36px; */
+    padding-left: 60px;
     padding-top: 30px;
 }
 
@@ -167,7 +130,8 @@ ul{
     --tw-gradient-to: #3b82f6;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
     background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
-    margin-left: 35px;
+    /* margin-left: 35px; */
+    margin-left: 59px;
     margin-right: 16px;
     width: fit-content;
 }
@@ -421,6 +385,7 @@ ul{
     display: flex;
     flex-direction: row;
     gap: 8px;
+    margin-left: 13px;
 }
 
 .form{
@@ -492,7 +457,6 @@ ul{
 }
 
 .rights{
-    color: rgb(71, 85, 105);
     margin: 0;
 }
 
