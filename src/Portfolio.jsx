@@ -128,7 +128,7 @@ export const Portfolio = () => {
             <a href="#contact">Hire Me</a>
           </div>
           <div className='download'>
-            <a href="https://drive.google.com/file/d/11MwGBPC9gVTVydrWm_VkViYnTX1NpzBu/view?usp=drive_link" target='blank'>
+            <a href="https://drive.google.com/file/d/1jGaY7PNOhC_ITpbu0EKsAZonKzTWL9EY/view?usp=drivesdk " target='blank'>
               <span>Download CV</span>
             </a>
           </div>
@@ -557,23 +557,11 @@ export const Portfolio = () => {
                 </h5>
                 <div className='social-icon'>
                <a href="https://github.com/vikram-b04" target='blank'><img width={35} height={35} src={require("./images/github-icon.png")} alt="" /></a>
-               <a href="https://www.linkedin.com/in/vikram-b-b39617287/" target='blank'><img width={35} height={35} src={require("./images/linkedin-icon.png")} alt="" /></a>
+               <a href="https://www.linkedin.com/in/vikrambharathidasan/" target='blank'><img width={35} height={35} src={require("./images/linkedin-icon.png")} alt="" /></a>
               </div> 
                </div>
-               {/* <div className='about-name'>
-               <h5 className='text-white'>
-                <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg></span>
-                NAME
-               </h5>
-               <p className='text-white'>Vikram</p>
-               </div> */}
-               
                 </div>
                </div>
-              {/* <div className='social-icon' data-aos="fade-up" data-aos-duration="1000">
-               <a href="https://github.com/vikram-b04" target='blank'><img width={48} height={48} src={require("./images/github-icon.png")} alt="" /></a>
-               <a href="https://www.linkedin.com/in/vikram-b-b39617287/" target='blank'><img width={48} height={48} src={require("./images/linkedin-icon.png")} alt="" /></a>
-              </div> */}
             </div>
 
             <div className='f' data-aos="fade-up" data-aos-duration="1000" >
